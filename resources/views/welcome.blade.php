@@ -41,13 +41,11 @@
                 <div class="title">Laravel 5</div>
             </div>
         </div>
-        <form action="">
-            <input type="hidden" id="username" data-username="{{ $username }}">
-        </form>
-        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+        @include ('footer')
         <script>
-            var username = $('#username').data('username');
             console.log(username);
+            console.log(age);
+            console.log(score);
         </script>
     </body>
 </html>
