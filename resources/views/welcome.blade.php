@@ -41,8 +41,11 @@
                 <div class="title">Laravel 5</div>
             </div>
         </div>
+        <form action="">
+            <input type="hidden" id="username" data-username="{{ $username }}">
+        </form>
         <script>
-            var username = '{{$username}}';
+            var username = $('#username').data('username');
             console.log(username);
         </script>
     </body>
