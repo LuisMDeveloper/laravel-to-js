@@ -41,5 +41,9 @@
                 <div class="title">Laravel 5</div>
             </div>
         </div>
+        <script>
+            var username = '{{$username}}';
+            console.log(username);
+        </script>
     </body>
 </html>
